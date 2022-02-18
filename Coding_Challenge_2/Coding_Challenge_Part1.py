@@ -7,3 +7,15 @@
 # You should have two solutions in this file, one for item 1 and one for item 2. Item 2 is tricky so if you get stuck
 # try your best (no penalty), for a hint check out the solution by desiato here.
 
+# # list = [1, 2, 3, 6, 8, 12, 20, 32, 46, 85]
+list = [1, 2, 3, 6, 8, 12, 20, 32, 46, 85]
+for i in list:
+
+    if i < 5:
+
+        print(i)
+
+# Using list-comprehension:
+
+x=[i for i in list if i <5]
+print(x)
