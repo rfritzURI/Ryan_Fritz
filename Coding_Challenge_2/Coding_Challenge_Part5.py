@@ -14,3 +14,4 @@ letter_scores = {
     "jx": 8,
     "qz": 10
 }
+

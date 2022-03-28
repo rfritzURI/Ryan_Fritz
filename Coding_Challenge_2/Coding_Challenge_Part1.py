@@ -9,13 +9,16 @@
 
 # # list = [1, 2, 3, 6, 8, 12, 20, 32, 46, 85]
 list = [1, 2, 3, 6, 8, 12, 20, 32, 46, 85]
+new_list = []
 for i in list:
 
     if i < 5:
-
+        new_list.append(i)
         print(i)
 
 # Using list-comprehension:
 
 x=[i for i in list if i <5]
 print(x)
+
+print(new_list)
