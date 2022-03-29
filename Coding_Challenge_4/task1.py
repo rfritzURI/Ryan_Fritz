@@ -12,6 +12,8 @@
 # Ensure that the code will run on my machine with only a single change to a
 # single variable (i.e. a base folder location)
 
+# WHAT THIS TOOL DOES OVERALL
+# Script by Ryan Fritz - March 2022
 
 # The Intercept tool
 # More information on the Intercept tool is found here: https://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/intersect.htm
@@ -21,19 +23,19 @@
 # which overlap in all layers and/or feature classes will be written to the output feature class.
 
 # The syntax: Intersect_analysis (in_features, out_feature_class, {join_attributes}, {cluster_tolerance}, {output_type})
-# Using raods and rivers feature class data from RIGIS, I used the intercept tool to
+# Using roads and rivers feature class data from RIGIS, I used the intercept tool to
 
 # import arcypy gives you access to nearly all ArcGIS functions
 import arcpy
 arcpy.env.overwriteOutput = True
-arcpy.env.workspace = r"C:\RyanGIS\Class_4\coding_challenge4"
+arcpy.env.workspace = r"C:\Data\Students_2022\Fritz\Coding_Challenge_4"
 arcpy.AddMessage("The new current workspace is: %s" % arcpy.env.workspace)
 
-roads = r"C:\RyanGIS\Class_4\coding_challenge4\data\roads_data\RIDOT_Roads__2016_.shp"
-rivers = r"C:\RyanGIS\Class_4\coding_challenge4\data\rivers_data\Rivers_and_Streams__RI_Integrated_Water_Quality_Monitoring_and_Assessment_Report_2012.shp"
-in_features = ["roads", "rivers"]
-out_feature_class = r"C:\RyanGIS\Class_4\coding_challenge4\data\roads_rivers_intercept"
+roads = r"C:\Data\Students_2022\Fritz\Coding_Challenge_4\data\roads_data\RIDOT_Roads__2016_.shp"
+rivers = r"C:\Data\Students_2022\Fritz\Coding_Challenge_4\data\rivers_data\Rivers_and_Streams__RI_Integrated_Water_Quality_Monitoring_and_Assessment_Report_2012.shp"
+in_features = [roads, rivers]
+out_feature_class = r"C:\Data\Students_2022\Fritz\Coding_Challenge_4\data\roads_rivers_intercept.shp"
 join_attributes = "ALL"
-cluster_tolerance = 1.5
+cluster_tolerance = ""
 output_type = "POINT"
-arcpy.Intersect_analysis(in_features, out_feature_class, {join_attributes}, {cluster_tolerance}, {output_type})
+arcpy.Intersect_analysis(in_features, out_feature_class, join_attributes, cluster_tolerance, output_type)
