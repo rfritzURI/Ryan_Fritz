@@ -79,7 +79,8 @@ with open("co2-ppm-daily.csv") as co2:
 
     for row in csv_reader:
         year_co2, month_co2, day = row[0].split("-")
-        value_list_dict[year_co2] = float(row[1]) - Average
+        value_list_dict[row[0]] = float(row[1]) - Average
+print(value_list_dict)
 
 
 

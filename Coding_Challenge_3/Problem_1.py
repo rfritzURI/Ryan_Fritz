@@ -37,6 +37,6 @@ for branch in branch_three_post:
     os.mkdir(os.path.join(path, "posted", branch))
 
 import shutil
-shutil.rmtree("C:\RyanGIS\Class_3\Coding_Challenge_3\my_directory3")
+shutil.rmtree(path)
 
 
