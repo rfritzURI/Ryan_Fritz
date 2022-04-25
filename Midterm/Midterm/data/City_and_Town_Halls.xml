@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <origin/>
+                <pubdate>20130319</pubdate>
+                <title>City and Town Halls</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>University of Rhode Island Environmental Data Center</publish>
+                </pubinfo>
+                <othercit>Suggested bibliographic reference: RIGIS, 2013. City and Town Halls; townHalls13.Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 14 October 2014).</othercit>
+                <onlink>http://services2.arcgis.com/S8zZg9pg23JUEexQ/arcgis/rest/services/City_and_Town_Halls/FeatureServer</onlink>
+                <onlink>http://data.rigis.org/FACILITY/townHalls13.zip</onlink>
+                <lworkcit>
+                    <citeinfo>
+                        <pubdate>19930101</pubdate>
+                        <title>Rhode Island Geographic Information System (RIGIS) Data Distribution System</title>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Locations of city and town halls in Rhode Island. Derived using information originally compiled by the State of Rhode Island (http://www.ri.gov), and built upon address location data contributed to the Rhode Island Geographic Information System (RIGIS) consortium by the Rhode Island Enhanced 911 Uniform Emergency Telephone System (RIE911). 
+This dataset was developed with support from Broadband Rhode Island (http://broadband.ri.gov).</abstract>
+            <purpose>Locations of town and city halls in Rhode Island.</purpose>
+            <supplinf>This dataset was developed with support from Broadband Rhode Island (http://broadband.ri.gov).</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20130312</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Irregular</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-71.832852</westbc>
+                <eastbc>-71.170445</eastbc>
+                <northbc>42.002602</northbc>
+                <southbc>41.17126</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>structure</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>city halls</themekey>
+                <themekey>town halls</themekey>
+                <themekey>municipal seats of government</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Rhode Island</placekey>
+                <placekey>New England</placekey>
+                <placekey>United States</placekey>
+                <placekey>Northeast</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>These data are shared under the RIGIS license agreement, which can be viewed below: This
+ dataset is provided 'as is.’ The producer(s) of this dataset, 
+contributors to this dataset, the Rhode Island Geographic Information 
+System (RIGIS) consortium, the State of Rhode Island, and the University
+ of Rhode Island do not make any warranties of any kind for this 
+dataset, and are not liable for any loss or damage however and whenever 
+caused by any use of this dataset.Please acknowledge both RIGIS 
+and the primary producer(s) of this dataset in any derived products.  
+Versions of the RIGIS logo suitable for both printed and web-based 
+products are available at http://www.rigis.org/logos.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                    <cntper>Greg Bonynge</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1 Greenhouse Road</address>
+                    <city>Kingston</city>
+                    <state>RI</state>
+                    <postal>02881</postal>
+                </cntaddr>
+                <cntvoice>401-874-2180</cntvoice>
+                <cntemail>greg@edc.uri.edu</cntemail>
+                <cntinst>email preferred</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <datacred>URI EDC, RIGIS; Broadband Rhode Island. Icon Credit: Creative Stall via The Noun Project</datacred>
+        <native>Esri ArcGIS 10.4.1.5686</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Attribute data originally compiled by the State of Rhode Island (http://www.ri.gov/towns). These attribute data were spot-checked and minor corrections made to a few incomplete addresses. No formal attribute accuracy assessment test was performed.</attraccr>
+        </attracc>
+        <logic>No logical consistency tests were performed on this simple point dataset.</logic>
+        <complete>All 39 municipal seats of government are represented by this dataset. There are no null values present in the attributes.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>No horizontal positional accuracy assessment test was performed. All locations are believed to be within 100 feet of their actual position.</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20010801</pubdate>
+                        <title>Rhode Island State, Coastline and Town Boundaries; ritown5k</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19970101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Rhode Island State, Coastline and Town Boundaries; ritown5k</srccitea>
+                <srccontr>Attribute data.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20120925</pubdate>
+                        <title>RI E-911 Sites; e911Sites13q1</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19970401</begdate>
+                            <enddate>20130107</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>RI E-911 Sites; e911Sites13q1</srccitea>
+                <srccontr>Street address location information.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20050215</pubdate>
+                        <title>Townhall locations in Rhode Island</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20050101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Townhall locations in Rhode Island</srccitea>
+                <srccontr>Location information for quality control purposes.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20130312</pubdate>
+                        <title>RI.gov: Rhode Island’s Cities &amp; Towns</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20130312</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>RI.gov: Rhode Island’s Cities &amp; Towns</srccitea>
+                <srccontr>Street address and other attribute information.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Created blank Excel spreadsheet, began by initially populating with OSP codes and other selected attribute data from the RIGIS ritown5k dataset. Added new Name, Address, Municipality, ZIP, community type, government model, year established, year incorporated, and website fields. Copied address and other attribute data from http://www.ri.gov/towns. Updated incomplete address data for Little Compton, Warren, Westerly. Updated URL's for Coventry, North Providence. Geocoded against RIE911 address location data. Compared locations of city and town halls against prior version of dataset distributed by RIGIS via the "near" ArcGIS command. Reviewed and confirmed significant location differences between the datasets using supplemental information from municipal websites, RIE911 sites data, and Google Street View (when available).</procdesc>
+                <procdate>20130312</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                            <cntper>Greg Bonynge</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>1 Greenhouse Road</address>
+                            <city>Kingston</city>
+                            <state>RI</state>
+                            <postal>02881</postal>
+                        </cntaddr>
+                        <cntvoice>401-874-2180</cntvoice>
+                        <cntemail>greg@edc.uri.edu</cntemail>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Data contributed to RIGIS by the University of Rhode Island Environmental Data Center. Metadata were reviewed, minor updates made to content, RIGIS distribution information added.</procdesc>
+                <procdate>20130319</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                            <cntper>Greg Bonynge</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>1 Greenhouse Road</address>
+                            <city>Kingston</city>
+                            <state>RI</state>
+                            <postal>02881</postal>
+                        </cntaddr>
+                        <cntvoice>401-874-2180</cntvoice>
+                        <cntemail>greg@edc.uri.edu</cntemail>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>39</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>FACILITY_Town_Halls</enttypl>
+                <enttypd>Rhode Island city and town halls</enttypd>
+                <enttypds>University of Rhode Island Environmental Data Center</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GOVFORM</attrlabl>
+                <attrdef>The general form of governance adapted by the municipality.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>TCMY</edomv>
+                                                						
+                        
+                        <edomvd>town council and elected mayor.</edomvd>
+                                                						
+                        
+                        <edomvds>University of Rhode Island Environmental Data Center</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Street address of the city or town hall.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Free text.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>County Name</attrdef>
+                <attrdefs>State of Rhode Island, Department of Administration, Division of Planning, Statewide Planning Program</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Free text.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TWNCODE</attrlabl>
+                <attrdef>Shorthand alpha code representing the name of each town, created by the State of Rhode Island, Department of Administration, Division of Planning, Statewide Planning Program.</attrdef>
+                <attrdefs>State of Rhode Island, Department of Administration, Division of Planning, Statewide Planning Program</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CF</edomv>
+                                                						
+                        
+                        <edomvd>Central Falls</edomvd>
+                                                						
+                        
+                        <edomvds>State of Rhode Island, Department of Administration, Division of Planning, Statewide Planning Program</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PHONE</attrlabl>
+                <attrdef>Primary phone number of the city/town hall.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Phone number.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HALLTYPE</attrlabl>
+                <attrdef>Defines how a municipality refers to its seat of government, e.g. a "City Hall" or "Town Hall".</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>City Hall</edomv>
+                                                						
+                        
+                        <edomvd>The municipality defines its seat of government as a "City Hall".</edomvd>
+                                                						
+                        
+                        <edomvds>University of Rhode Island Environmental Data Center</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>INCORP</attrlabl>
+                <attrdef>Year the municipality was incorporated.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>1640</rdommin>
+                                                						
+                        
+                        <rdommax>1958</rdommax>
+                                                						
+                        
+                        <attrunit>calendar year</attrunit>
+                                                						
+                        
+                        <attrmres>1</attrmres>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ZIP</attrlabl>
+                <attrdef>United States Postal Service ZIP code associated with the city/town street address.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>United States Postal Service ZIP codes</codesetn>
+                                                						
+                        
+                        <codesets>United States Postal Service</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>Name of the city or town hall.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Free text.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>URL</attrlabl>
+                <attrdef>Primary website address (URL) used by the municipal government for sharing information with the general public.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Website addresses (URLs).</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ESTAB</attrlabl>
+                <attrdef>Year the municipality was established.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>1620</rdommin>
+                                                						
+                        
+                        <rdommax>1888</rdommax>
+                                                						
+                        
+                        <attrunit>calendar year</attrunit>
+                                                						
+                        
+                        <attrmres>1</attrmres>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MUNITYPE</attrlabl>
+                <attrdef>Defines if the municipality associated with the city/town hall is incorporated as a city or town.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>city</edomv>
+                                                						
+                        
+                        <edomvd>The municipality associated with the city/town hall is incorporated as a city.</edomvd>
+                                                						
+                        
+                        <edomvds>University of Rhode Island Environmental Data Center</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TOWN</attrlabl>
+                <attrdef>Municipality where city/town hall is located; also a component of the street address.</attrdef>
+                <attrdefs>University of Rhode Island Environmental Data Center</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Free text.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OSP</attrlabl>
+                <attrdef>A numeric city town identifier.</attrdef>
+                <attrdefs>State of Rhode Island, Department of Administration, Division of Planning, Statewide Planning Program</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>Burrillville</edomvd>
+                                                						
+                        
+                        <edomvds>State of Rhode Island, Department of Administration, Division of Planning, Statewide Planning Program</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                    <cntper>Erica Tefft</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1 Greenhouse Road</address>
+                    <city>Kingston</city>
+                    <state>RI</state>
+                    <postal>02881</postal>
+                </cntaddr>
+                <cntvoice>401-874-5054</cntvoice>
+                <cntemail>erica@edc.uri.edu</cntemail>
+                <cntinst>email preferred</cntinst>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Esri shapefile</formname>
+                    <filedec>ZIP</filedec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.rigis.org</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20161115</metd>
+        <metrd>20130321</metrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                    <cntper>Greg Bonynge</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1 Greenhouse Road</address>
+                    <city>Kingston</city>
+                    <state>RI</state>
+                    <postal>02881</postal>
+                </cntaddr>
+                <cntvoice>401-874-2180</cntvoice>
+                <cntemail>greg@edc.uri.edu</cntemail>
+                <cntinst>email preferred</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

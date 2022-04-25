@@ -1,0 +1,4 @@
+Midterm Results
+By Ryan Fritz
+The script has determined that there is 9,494 acres of wetlands within 500 feet of roadways in South Kingstown,RI 
+The final output is a csv file containing the calculated sum of wetland acres

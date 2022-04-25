@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20130325</pubdate>
+                <title>Rivers and Streams: RI Integrated Water Quality Monitoring Assessment 2012</title>
+                <edition>2012</edition>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>Rhode Island Department of Environmental Management</publish>
+                </pubinfo>
+                <othercit>Suggested bibliographic reference: RIGIS, 2013. Rivers and Streams: RI Integrated Water Quality Monitoring and Assessment Report 2012; rivers_IWQMA12. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 2 October 2014).</othercit>
+                <onlink>http://services2.arcgis.com/S8zZg9pg23JUEexQ/arcgis/rest/services/Rivers_and_Streams_IWQMA2012/FeatureServer</onlink>
+                <onlink>http://data.rigis.org/HYDRO/rivers_IWQMA12.zip</onlink>
+                <lworkcit>
+                    <citeinfo>
+                        <pubdate>19930101</pubdate>
+                        <title>Rhode Island Geographic Information System (RIGIS) Data Distribution System</title>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Vector line data representing Rhode Island Rivers and Streams included in the State's Integrated Water Quality and Assessment Report required under provisions of the US Clean Water Act The Rhode Island Department of Environmental Management, Office of Water Resources has developed this document to provide information on Rhode Island water quality required biennially by Section 305(b) and periodically by Section 303(d) of the federal Water Pollution Control Act (the Clean Water Act). This first Integrated Water Quality Monitoring and Assessment Report is intended to meet the reporting requirements of Sections 106, 303(d), 305(b), 314 and 319 of the Clean Water Act. This report integrates the previously separate 305(b) State of the State's Waters Report and the 303(d) List of Impaired Waters. The narrative focus of this Integrated Report is shifted away from the extensive program descriptions presented in previous 305(b) Reports (website links are provided to guide interested readers to additional program information). Instead the Integrated Report is focused to highlight the environmental results that these programs have achieved or new programs and initiatives that have developed during the reporting cycle. 
+These data are published as an aid to understanding and interpreting the State's Integrated Water Quality Monitoring and Assessment Report found at: 
+  http://www.dem.ri.gov/programs/benviron/water/quality/pdf/iwqmon12.pdf PLEASE NOTE: A Water Quality Standard describes an ideal condition or goal for a waterbody. In many cases a waterbody may not meet the standard. In those situations the waterbody is included on the State 303(d) list and the State is required to develop a plan (TMDL) to restore the waterbody to it's standard condition. In the new integrated report data format, only waterbodies in category 5 (IR_Cat) are included on the303d list.</abstract>
+            <purpose>Rivers and Streams included in the State's Integrated Water Quality and Assessment Report.</purpose>
+            <supplinf>PLEASE NOTE: A Water Quality Standard describes an ideal condition or goal for a waterbody. In many cases a waterbody may not meet the standard. In those situations the waterbody is included on the State 303(d) list and the State is required to develop a plan (TMDL) to restore the waterbody to it's standard condition. In the new integrated report data format, only waterbodies in category 5 (IR_Cat) are included on the303d list</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20110901</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-180</westbc>
+                <eastbc>180</eastbc>
+                <northbc>90</northbc>
+                <southbc>-90</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Water Quality Standards</themekey>
+                <themekey>Assessments</themekey>
+                <themekey>rivers</themekey>
+                <themekey>Clean Water Act</themekey>
+                <themekey>streams</themekey>
+                <themekey>303(d)</themekey>
+                <themekey>Impairments</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>inlandWaters</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Rhode Island</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>These data are shared under the RIGIS license agreement, which can be viewed below: This
+ dataset is provided 'as is.’ The producer(s) of this dataset, 
+contributors to this dataset, the Rhode Island Geographic Information 
+System (RIGIS) consortium, the State of Rhode Island, and the University
+ of Rhode Island do not make any warranties of any kind for this 
+dataset, and are not liable for any loss or damage however and whenever 
+caused by any use of this dataset.Please acknowledge both RIGIS 
+and the primary producer(s) of this dataset in any derived products.  
+Versions of the RIGIS logo suitable for both printed and web-based 
+products are available at http://www.rigis.org/logos.Additional Use Constraints from Originator:These data were created for informational, planning and guidance use 
+only. They are a general reference, not a legally authoritative source 
+for the location of natural or manmade features. Proper interpretation 
+of these data may requre the assistance of appropriate professional 
+services. The cartographic representations depicted have not been 
+verified by a RI Registered Professional Land Surveyor and are not 
+intended to be used in place of a survey. The producer makes no 
+warranty, express or implied, related to the accuracy, reliability, 
+completeness, or currentness of these data.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Rhode Island Department of Environmental Management</cntorg>
+                    <cntper>Paul Jordan</cntper>
+                </cntorgp>
+                <cntpos>Supervising GIS Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>235 Promenade Street</address>
+                    <city>Providence</city>
+                    <state>Rhode Island</state>
+                    <postal>02908</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>401-222-2776 x4315</cntvoice>
+                <cntfax>401-222-2069</cntfax>
+                <cntemail>paul.jordan@dem.ri.gov</cntemail>
+                <hours>8:30am to 4:00pm</hours>
+                <cntinst>e-mail is preferred</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <datacred>URI EDC, RIGIS; RI Dept. of Environmental Management</datacred>
+        <native>Esri ArcGIS 10.4.1.5686</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>unknown</attraccr>
+        </attracc>
+        <logic>no testing has been performed however the spatial data are are generally believed to be consistent with waterbody delineations shown on USGS 7.5 minute 1:24000 scale topographic maps</logic>
+        <complete>All waterbodies documented in the 2010 RI Integrated Water Quality Report are included here</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>National Map Accuracy Standards for 1:24000 Scale</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>19980601</pubdate>
+                        <title>USGS Hydrolines of Rhode Island; s44hhl98</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>onLine</typesrc>
+                <srccitea>USGS Hydrolines of Rhode Island; s44hhl98</srccitea>
+                <srccontr>vector river &amp; stream centerline geography</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Data contributed to RIGIS by the Rhode Island Department of Environmental Management. Metadata were reviewed, minor corrections made to formatting and content, RIGIS distribution information added.</procdesc>
+                <procdate>20130626</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                            <cntper>Greg Bonynge</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>1 Greenhouse Road</address>
+                            <city>Kingston</city>
+                            <state>RI</state>
+                            <postal>02881</postal>
+                        </cntaddr>
+                        <cntvoice>401-874-2180</cntvoice>
+                        <cntemail>greg@edc.uri.edu</cntemail>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>3963</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>HYDRO_Rivers_Streams_IWQMA</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID_1</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Label</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Strm_Ordr</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>WBID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CAT</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>RivMiles</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SRPW</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>WQS</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Cold</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>Attribute Details Name - Common Name of waterbody as shown on most maps WBID - RIDEM internal unique identifier Stream Order - Strahler Stream Order Value of 0 signifies a short disconnected stream segment. Most often seen in wetlands. SRPW - Special Resource Protection Waters Special Resource Protection Waters (SRPWs) are high quality surface waters identified by the Director as having significant ecological or recreational uses, which may include but are not limited to: wildlife refuge or management areas; public drinking water supplies; State and Federal parks; State and Federal designated Estuarine Sanctuary Areas; waterbodies containing critical habitats, which may include but are not limited to waterbodies identified by the RIDEM Natural Heritage Program as critical habitat for rare or endangered species; wetland types or specific wetlands listed as rare, threatened, endangered, of special interest or of special concern by the RI Natural Heritage Program; waterbodies identified by the U.S. Department of the Interior on the Final List of Rivers for potential inclusion in the National Wild and Scenic Rivers System. Cold - Cold Water Fishery designation Cold waters are or should be capable of supporting cold water fish species. Some waterbodies within this class are currently sampling as warm, but with proper managment could be restored to a cold water fish habitat. Warm waters support warm water fish species Una or unassessed are waterbodies that have not been sampled or assessed for this classification RivMiles - length of stream segment in miles Label - abbreviated from of WBID map labeling and annotation WQS - Water Quality Standard Class AA@ - These waters are designated as a source of public drinking water supply (PDWS) or as tributary waters within a public drinking water supply watershed (the terminal reservoir of the PDWS are identified in Appendix A), for primary and secondary contact recreational activities and for fish and wildlife habitat. These waters shall have excellent aesthetic value. Class A - These waters are designated for primary and secondary contact recreational activities and for fish and wildlife habitat. They shall be suitable for compatible industrial processes and cooling, hydropower, aquacultural uses, navigation, and irrigation and other agricultural uses. These waters shall have excellent aesthetic value. Class B* - These waters are designated for fish and wildlife habitat and primary and secondary contact recreational activities. They shall be suitable for compatible industrial processes and cooling, hydropower, aquacultural uses, navigation, and irrigation and other agricultural uses. These waters shall have good aesthetic value. Class B1* - These waters are designated for primary and secondary contact recreational activities and fish and wildlife habitat. They shall be suitable for compatible industrial processes and cooling, hydropower, aquacultural uses, navigation, and irrigation and other agricultural uses. These waters shall have good aesthetic value. Primary contact recreational activities may be impacted due to pathogens from approved wastewater discharges. However all Class B criteria must be met. Class C - These waters are designated for secondary contact recreational activities and fish and wildlife habitat. They shall be suitable for compatible industrial processes and cooling, hydropower, aquacultural uses, navigation, and irrigation and other agricultural uses. These water shall have good aesthetic value. @ Class AA waters used for public drinking water supply may be subject to restricted recreational use by State and local authorities. Class SA@ * - These waters are designated for shellfish harvesting for direct human consumption, primary and secondary contact recreational activities, and fish and wildlife habitat. They shall be suitable for aquacultural uses, navigation, and industrial cooling. These waters shall have good aesthetic value. Class SB* - These waters are designated for primary and secondary contact recreational activities; shellfish harvesting for controlled relay and depuration; and fish and wildlife habitat. They shall be suitable for aquacultural uses, navigation, and industrial cooling. These waters shall have good aesthetic value. Class SB1* - These waters are designated for primary and secondary contact recreational activities and fish and wildlife habitat. They shall be suitable for aquacultural uses, navigation, and industrial cooling. These waters shall have good aesthetic value. Primary contact recreational activities may be impacted due to pathogens from approved wastewater discharges. However all Class SB criteria must be met. Class SC - These waters are designated for secondary contact recreational activities, and fish and wildlife habitat. They shall be suitable for aquacultural uses, navigation, and industrial cooling. These waters shall have good aesthetic value. CAT - Category aka 303d listing, water not attaining designated uses Category 1 Attaining all designated uses. Waterbodies will be placed into this Category if, in accordance with the requirements of the CALM, the assessment results indicate that the waterbody is attaining all water quality standards for all designated uses. Category 2 Attaining some of the designated uses; and insufficient or no data and information is available to determine if the remaining uses are attained. Waterbodies will be placed in this Category if there are data and information which, in accordance with the CALM, support a determination that some, but not all, uses are attained and attainment status of the remaining uses is unknown because there is insufficient or no data or information. Category 3 Insufficient or no data and information are available to determine if any designated use is attained or impaired. Waterbodies will be placed in this Category where the data or information to support an attainment determination for all uses are not sufficient, consistent with the requirements of the CALM. In general, these uses and waterbodies are considered Not Assessed. Category 4 Impaired or threatened for one or more designated uses but does not require development of a TMDL. (Three subcategories): A. TMDL has been completed. Waterbodies will be placed in this subcategory once all TMDLs for the waterbody have been developed and approved by EPA. B. Other pollution control requirements are reasonably expected to result in attainment of the water quality standard in the near future. Waterbodies will be placed in this subcategory where other pollution control requirements are stringent enough to attain applicable water quality standards. C. Impairment is not caused by a pollutant. Waterbodies will be placed in this subcategory if pollution (e.g., flow) rather than a pollutant causes the impairment. Category 5 Impaired or threatened for one or more designated uses by a pollutant(s), and requires a TMDL. This Category constitutes the 303(d) List of waters impaired or threatened by a pollutant(s) for which one or more TMDL(s) are needed.</eaover>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                    <cntper>Erica Tefft</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1 Greenhouse Road</address>
+                    <city>Kingston</city>
+                    <state>RI</state>
+                    <postal>02881</postal>
+                </cntaddr>
+                <cntvoice>401-874-5054</cntvoice>
+                <cntemail>erica@edc.uri.edu</cntemail>
+                <cntinst>email preferred</cntinst>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Esri shapefile</formname>
+                    <filedec>ZIP</filedec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.rigis.org</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20161115</metd>
+        <metrd>20130626</metrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Rhode Island Department of Environmental Management</cntorg>
+                    <cntper>Paul Jordan</cntper>
+                </cntorgp>
+                <cntpos>Supervising GIS Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>235 Promenade Street</address>
+                    <city>Providence</city>
+                    <state>Rhode Island</state>
+                    <postal>02908</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>401-222-2776 x4315</cntvoice>
+                <cnttdd>na</cnttdd>
+                <cntfax>401-222-2069</cntfax>
+                <cntemail>paul.jordan@dem.ri.gov</cntemail>
+                <hours>8:30am to 4:00p</hours>
+                <cntinst>e-mail is preferred</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
