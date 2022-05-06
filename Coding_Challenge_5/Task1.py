@@ -20,78 +20,109 @@
 # You leave no trace of execution, except the resulting heatmap files.
 # You provide print statements that explain what the code is doing, e.g. Fishnet file generated
 
-import arcpy
+import arcpy, os, csv
 # Setting my workspace where my files will be stored
 arcpy.env.overwriteOutput = True
-arcpy.env.workspace = r"C:\RyanGIS\Class_5\Coding_Challenge_5"
-# Converting the Bonefish and Tarpons csv file into a shapefile before generating the heatmap
-in_Table = r"BONEFISH_TARPONS_points.csv"
-x_coords = "longitude"
-y_coords = "latitude"
-z_coords = ""
-out_Layer = "Bonefish_Tarpons"
-saved_Layer = r"Step_1_Bonefish_Tarpons_Species_Output.shp"
+ryan_directory = r"C:\Ryan_GIS\Class_5\Coding_Challenge_5"
+arcpy.env.workspace = ryan_directory
 
-# Set the spatial reference
-spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
-lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
+if not os.path.exists(os.path.join(ryan_directory, "output_files")):
+    os.mkdir(os.path.join(ryan_directory, "output_files"))
+if not os.path.exists(os.path.join(ryan_directory, "temp_files")):
+    os.mkdir(os.path.join(ryan_directory, "temp_files"))
 
-#  see if the output exists in the file
-arcpy.CopyFeatures_management(lyr, saved_Layer)
-if arcpy.Exists(saved_Layer):
-    print("Created file successfully!")
+# Splitting the csv file to separate thespecies
+with open('Fish_Species_updated.csv') as species_csv:
+    csv_reader = csv.reader(species_csv, delimiter=',')
+    species_list = []
+    header = next(csv_reader)
+    for row in csv_reader:
 
-# Extract the Extent
-desc = arcpy.Describe(saved_Layer)
-XMin = desc.extent.XMin
-XMax = desc.extent.XMax
-YMin = desc.extent.YMin
-YMax = desc.extent.YMax
+        if row[0] not in species_list:
+            species_list.append(row[0])
+    print(species_list)
 
-# Generate fishnet
-arcpy.env.outputCoordinateSystem = arcpy.SpatialReference(4326)
-# Name output fishnet
-outFeatureClass = "Fishnet_bonefish_tarpon.shp"
+for species in species_list:
+    print(species)
+    csv_file_species = os.path.join(ryan_directory,"temp_files", species.replace(" ", "_") + ".csv")
+    file = open(csv_file_species, "w")
+    # Extract that species from the cvs file
+    with open('Fish_Species_updated.csv') as species_csv:
+        csv_reader = csv.reader(species_csv, delimiter=',')
+        species_list = []
+        header = next(csv_reader)
+        file.write(", ".join(header))
+        file.write("\n")
+        for row in csv_reader:
+            if row[0] == species:
+                file.write(", ".join(row))
+                file.write("\n")
+        file.close()
 
-# Set the origin of the fishnet
-originCoordinate = str(XMin) + " " + str(YMin)
-yAxisCoordinate = str(XMin) + " " + str(YMin + 1)
-cellSizeHeight = "0.25"
-cellSizeWidth = "0.25"
-numRows = ""
-numColumns = ""
-oppositeCorner = str(XMax) + " " + str(YMax)
-labels = "NO_LABELS"
-templateExtent = "#"
-geometryType = "POLYGON"
+    # Converting the csv file into a shapefile before generating the heatmap
+    shp_file_species = os.path.join(ryan_directory, "temp_files", species.replace(" ", "_") + ".shp")
 
-arcpy.CreateFishnet_management(outFeatureClass, originCoordinate, yAxisCoordinate,
-                               cellSizeWidth, cellSizeHeight, numRows, numColumns,
-                               oppositeCorner, labels, templateExtent, geometryType)
+    in_Table = "Fish_Species_updated.csv"
+    x_coords = "longitude"
+    y_coords = "latitude"
+    z_coords = ""
+    out_Layer = "fish"
 
-if arcpy.Exists(outFeatureClass):
-    print("Created Fishnet file successfully!")
+    # Set the spatial reference
+    spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
+    lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
+    arcpy.CopyFeatures_management(lyr, shp_file_species)
 
-# Spatial join the fishnet to the observed points
-target_features = "Fishnet_bonefish_tarpon.shp"
-join_features = "Step_1_Bonefish_Tarpons_Species_Output.shp"
-out_feature_class = "HeatMap_Bonefish_Tarpons.shp"
-join_operation = "JOIN_ONE_TO_ONE"
-join_type = "KEEP_ALL"
-field_mapping = ""
-match_option = "INTERSECT"
-search_radius = ""
-distance_field_name = ""
+    #Creating the fishnet
+    shp_fishnet_file_species = os.path.join(ryan_directory, "temp_files", species.replace(" ", "_") + "_fishnet.shp")
+    # But first, we must extract the Extent
+    desc = arcpy.Describe(shp_file_species)
+    XMin = desc.extent.XMin
+    XMax = desc.extent.XMax
+    YMin = desc.extent.YMin
+    YMax = desc.extent.YMax
 
-arcpy.SpatialJoin_analysis(target_features, join_features, out_feature_class,
-                           join_operation, join_type, field_mapping, match_option,
-                           search_radius, distance_field_name)
+    # Generate fishnet
+    arcpy.env.outputCoordinateSystem = arcpy.SpatialReference(4326)
 
-# 5. Check that the heatmap is created and delete the intermediate files (e.g. species shapefile and fishnet). Hint:
-# arcpy.Delete_management()..
+    print("Cool, we made a Fishnet shapefile")
+    # Set the origin of the fishnet
+    originCoordinate = str(XMin) + " " + str(YMin)
+    yAxisCoordinate = str(XMin) + " " + str(YMin + 1)
+    cellSizeHeight = "1"
+    cellSizeWidth = "1"
+    numRows = ""
+    numColumns = ""
+    oppositeCorner = str(XMax) + " " + str(YMax)
+    labels = "NO_LABELS"
+    templateExtent = "#"
+    geometryType = "POLYGON"
 
-if arcpy.Exists(out_feature_class):
-    print("Created Heatmap file successfully!")
-    print("Deleting intermediate files")
-    # arcpy.Delete_management(target_features)
-    # arcpy.Delete_management(join_features)
+    arcpy.CreateFishnet_management(shp_fishnet_file_species, originCoordinate, yAxisCoordinate,
+                                   cellSizeWidth, cellSizeHeight, numRows, numColumns,
+                                   oppositeCorner, labels, templateExtent, geometryType)
+    print("Fishnet origin created successfully")
+    if arcpy.Exists(shp_fishnet_file_species):
+        print("Created Fishnet file successfully!")
+
+    # Spatial join the fishnet to the observed points
+    shp_heatmap_file_species = os.path.join(ryan_directory, "temp_files",
+                                                species.replace(" ", "_") + "_heatmap.shp")
+    target_features = shp_fishnet_file_species
+    join_features = shp_file_species
+    out_feature_class = shp_heatmap_file_species
+    join_operation = "JOIN_ONE_TO_ONE"
+    join_type = "KEEP_ALL"
+    field_mapping = ""
+    match_option = "INTERSECT"
+    search_radius = ""
+    distance_field_name = ""
+
+    arcpy.SpatialJoin_analysis(target_features, join_features, out_feature_class,
+                               join_operation, join_type, field_mapping, match_option,
+                               search_radius, distance_field_name)
+
+    if arcpy.Exists(shp_heatmap_file_species):
+        print("Created Heatmap file successfully!")
+
+
