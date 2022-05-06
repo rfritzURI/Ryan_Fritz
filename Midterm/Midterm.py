@@ -9,7 +9,7 @@ import arcpy
 import os
 
 arcpy.env.overwriteOutput = True
-directory = r"C:\RyanGIS\Midterm"
+directory = r"C:\Data\Students_2022\Fritz\Midterm"
 arcpy.env.workspace = directory
 
 print("My script will determine the acreage of wetlands present within 500 feet from "
