@@ -1,7 +1,7 @@
 #                         **Python Toolbox for Hydrological Analysis: Pond and Lake Mapping :droplet: :fishing_pole_and_fish:**
 ##                                                             Script by Ryan Fritz
 
-                          ![lake](https://pro.arcgis.com/en/pro-app/2.8/tool-reference/spatial-analyst/GUID-F7126CF0-5666-4C0C-976E-8F29FB7AE0AB-web.gif)
+![lake](https://pro.arcgis.com/en/pro-app/2.8/tool-reference/spatial-analyst/GUID-F7126CF0-5666-4C0C-976E-8F29FB7AE0AB-web.gif)
 
 
 ### PURPOSE OF THIS SCRIPT:
