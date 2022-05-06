@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20201109</CreaDate><CreaTime>08285200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\SetNull" Date="20201109" Time="082852">SetNull dem.img dem.img "F:\Classes\NRS 410\Labs\Lab_10\Data\dem_RISP.img" "VALUE = 0"</Process></lineage></DataProperties></Esri></metadata>
