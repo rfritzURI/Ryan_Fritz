@@ -2,7 +2,7 @@
 
 ## Script by Ryan Fritz
 
-![lake](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpro.arcgis.com%2Fen%2Fpro-app%2F2.8%2Ftool-reference%2Fspatial-analyst%2Fexploring-digital-elevation-models.htm&psig=AOvVaw3GOCLFy8e-azDIYyiw1_YR&ust=1651964831200000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiumtz-y_cCFQAAAAAdAAAAABAJ)
+![lake](https://pro.arcgis.com/en/pro-app/2.8/tool-reference/spatial-analyst/GUID-F7126CF0-5666-4C0C-976E-8F29FB7AE0AB-web.gif)
 
 
 ### PURPOSE OF THIS SCRIPT:
