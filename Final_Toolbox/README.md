@@ -1,4 +1,4 @@
-# Python Toolbox for Hydrological Analysis: Pond and Lake Mapping :droplet: :fishing_pole_and_fish:
+# **Python Toolbox for Hydrological Analysis: Pond and Lake Mapping :droplet: :fishing_pole_and_fish:**
 
 ## Script by Ryan Fritz
 
@@ -12,9 +12,9 @@
 #### (Digital Elevation Model). A DEM is a raster type where each cell value represents elevation within the cell. Using a
 #### DEM, one can locate the areas of depressions (sinks) in the ground that retain water a.k.a ponds and lakes!
 
-###                                       TOOLS IN THE TOOLBOX
+###                                       **TOOLS IN THE TOOLBOX**
 
-#### The Flow Direction Tool
+#### **The Flow Direction Tool**
 #### PURPOSE: The Flow Direction tool will determine direction of flow by the direction of
 #### steepest descent, or maximum drop, from each cell in the DEM raster.
 #### WHAT THIS TOOL DOES: Creates a raster of flow direction from each cell to its downslope neighbor or neighbors.
