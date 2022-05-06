@@ -2,7 +2,7 @@
 ## Script by Ryan Fritz
 
 ## PURPOSE OF THIS SCRIPT:
-##### Hydrological analyses include identifying water resource areas, analyzing the flow of water over a landscape,
+#### Hydrological analyses include identifying water resource areas, analyzing the flow of water over a landscape,
 ### mapping the area of a watershed, and assessing flood risks. Specifically, this script will use
 ### four tools to enable anyone in the field of hydrology to map real ponds and lake using an input DEM
 ### (Digital Elevation Model). A DEM is a raster type where each cell value represents elevation within the cell. Using a
