@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20220505</CreaDate><CreaTime>19182200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Image Analyst Tools.tbx\SetNull" Date="20220505" Time="191822">SetNull C:\Ryan_GIS\Final_Toolbox\RegionGroup_raster.tif 1 C:\Ryan_GIS\Final_Toolbox\SetNull_RegionG1.tif "COUNT &lt; 100"</Process></lineage></DataProperties></Esri></metadata>
